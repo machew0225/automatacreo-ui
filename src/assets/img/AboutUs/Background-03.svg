@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="450.045px" height="402.04px" viewBox="0 0 450.045 402.04" enable-background="new 0 0 450.045 402.04"
+	 xml:space="preserve">
+<g opacity="0.8">
+	<g>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-2240.9531" y1="7082.8081" x2="-2098.8411" y2="6940.6958" gradientTransform="matrix(0.7071 -0.7071 0.7071 0.7071 -3220.6497 -6242.3179)">
+			<stop  offset="0" style="stop-color:#F47D53;stop-opacity:0"/>
+			<stop  offset="0.2167" style="stop-color:#F47850;stop-opacity:0.2167"/>
+			<stop  offset="0.509" style="stop-color:#F26B48;stop-opacity:0.509"/>
+			<stop  offset="0.8428" style="stop-color:#F0523C;stop-opacity:0.8428"/>
+			<stop  offset="1" style="stop-color:#EF4137"/>
+		</linearGradient>
+		<circle fill="url(#SVGID_1_)" cx="203.026" cy="250.026" r="100.488"/>
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-2112.5278" y1="486.2521" x2="-2257.6853" y2="341.0948" gradientTransform="matrix(0.4532 -0.8914 0.8914 0.4532 919.0931 -1981.0918)">
+			<stop  offset="0" style="stop-color:#F47D53;stop-opacity:0"/>
+			<stop  offset="0.125" style="stop-color:#EF7B54;stop-opacity:0.125"/>
+			<stop  offset="0.251" style="stop-color:#E47758;stop-opacity:0.251"/>
+			<stop  offset="0.3776" style="stop-color:#D4705E;stop-opacity:0.3776"/>
+			<stop  offset="0.5046" style="stop-color:#BE6765;stop-opacity:0.5046"/>
+			<stop  offset="0.632" style="stop-color:#A25C6C;stop-opacity:0.632"/>
+			<stop  offset="0.7597" style="stop-color:#825174;stop-opacity:0.7597"/>
+			<stop  offset="0.8852" style="stop-color:#5B457C;stop-opacity:0.8852"/>
+			<stop  offset="1" style="stop-color:#293B83"/>
+		</linearGradient>
+		<path fill="url(#SVGID_3_)" d="M389.047,200.704c25.689-50.532,5.551-112.321-44.981-138.011
+			c-50.532-25.69-112.321-5.551-138.011,44.981c-25.69,50.532-5.551,112.321,44.981,138.011
+			C301.568,271.374,363.358,251.236,389.047,200.704z M259.834,228.38c-19.817-10.076-34.525-27.264-41.415-48.401
+			c-6.889-21.137-5.133-43.691,4.941-63.507c10.074-19.818,27.264-34.525,48.4-41.413c21.138-6.889,43.693-5.135,63.51,4.939
+			c19.814,10.074,34.523,27.263,41.412,48.4c6.889,21.137,5.134,43.692-4.941,63.509c-10.072,19.815-27.262,34.523-48.4,41.412
+			C302.206,240.208,279.651,238.455,259.834,228.38z"/>
+	</g>
+</g>
+</svg>

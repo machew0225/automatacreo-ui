@@ -1,0 +1,86 @@
+.navbar-item {
+    margin-right: 1.5rem;
+    margin-top: .5rem;
+}
+
+.nav-btn {
+    background-color: inherit;
+    border-color: transparent;
+    color:white;
+}
+
+.collapse {
+    -moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+}
+
+.nav-btn-scroll {
+ color:black;   
+}
+
+.nav-btn-scroll .bg-light , .navbar {
+    transition:500ms ease;
+}
+
+
+.footer-svg {
+    display: block; 
+    width: 100%;
+    bottom: 0; 
+    top: 100%;
+}
+h1 {
+    text-align: center;
+}
+
+.main-container {
+    padding-top:70px;
+}
+
+.nav-ac-logo {
+    max-width: 5%;
+}
+
+.about-ac-logo {
+    max-width: 10%;
+    margin-top:10%;
+}
+.bg { 
+    // background-image: url('/assets/img/AboutUs/Background-01-test.svg');
+    background-image: url('/assets/img/AboutUs/Artboard 1.svg');
+    background-position:center top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100%;
+  }
+
+  .dashboard-logo {
+      max-width: 50%;
+      height: auto;
+      margin: auto;    
+      display: block;
+  }
+  .edge-header {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .jumbotron {
+    margin-bottom: 0px;
+    padding-top:0;
+    padding-bottom:0;
+ }
+
+//  ,  .product-services
+ .home {
+     color: white;
+     margin-bottom: 5%;
+ }
+
+ .row {
+     margin-left:0;
+     margin-right: 0;
+ }

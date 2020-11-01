@@ -1,0 +1,168 @@
+
+    <div #home class = bg>
+  <nav class="navbar navbar-expand-lg fixed-top" (scroll)="onWindowScroll($event)">
+    <button class="navbar-toggler" type="button" (click)="toggle()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item navbar-item">
+          <label type = "button" class="btn btn-light nav-btn" (click) = "goToElement(home)">Home</label>
+        </li>
+        <li class="nav-item navbar-item">
+          <label type = "button" class="btn btn-light nav-btn" (click) = "goToElement(aboutus)">About Us</label>
+        </li>
+        <li class="nav-item navbar-item">
+          <label type = "button" class="btn btn-light nav-btn" (click) = "goToElement(services)">Product/Services</label>
+        </li>
+        <li class="nav-item navbar-item">
+          <label type = "button" class="btn btn-light nav-btn" (click) = "goToElement(market)">Target Market</label>
+        </li>
+        <li class="nav-item navbar-item last">
+          <label type = "button" class="btn btn-light nav-btn" (click) = "goToElement(contactus)">Contact Us</label>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid py-5 my-5">
+
+      <div class = "row home">
+        <div class = "col-3">
+          <h1>Changing the IT Industry landscape by creating  the next possible!</h1>
+        </div>
+        <div class = "col"></div>
+      </div>
+
+  </div>
+    <div #aboutus class = "row" >
+      <div class = "col px-5 mx-5">
+        <div class="logo-image text-center">
+          <img src="/assets/img/AC Logo.svg" class="img-fluid about-ac-logo">
+        </div>
+        <h1>About Automata Creo</h1>
+        <p class = "text-center">
+          Driven by the vision to become a game changer in the Philippine IT industry, the precursors of Automata Creo established the organization with only with the confidence a <br/>
+        </p>
+        <h3>
+          Automata Creo vows to deliver top-notch technologies governed with our principles:
+        </h3>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col edge-header">
+        <h1> Modern and Responsive Interface</h1>
+        <img src="/assets/img/AboutUs/OurEdge-04.svg" class="dashboard-logo">
+        <h1> Your Perfect Business Partner</h1>
+        <img src="/assets/img/AboutUs/OurEdge-03.svg" class="dashboard-logo">
+        <h1>Simplified solutions</h1>
+        <img src="/assets/img/AboutUs/OurEdge-01.svg" class="dashboard-logo">
+        <h1>Accelerating the technology</h1>
+      </div>
+      <div class = "col">
+        <img src="/assets/img/AboutUs/OurEdge-01.svg" class="dashboard-logo">
+        <h1> Keeping adept on technologies</h1>
+        <img src="/assets/img/AboutUs/OurEdge-02.svg" class="dashboard-logo">
+        <h1> Awesome Technical Team</h1>
+        <img src="/assets/img/AboutUs/OurEdge-03.svg" class="dashboard-logo">
+        <h1>Cost Effective Technologies</h1>
+        <img src="/assets/img/AboutUs/OurEdge-04.svg" class="dashboard-logo">
+      </div>
+    </div>
+    <div class = "bg2">
+      <h1 class = "text-center">Products and Services</h1>
+      <div #services class = "row product-services">
+          <div class = "col">
+          </div>
+          <div class = "row">
+            <div class = "col"><img src="/assets/img/Services/Services_icon-01.svg" class="dashboard-logo"></div>
+            <div class = "col"><img src="/assets/img/Services/Services_icon-02.svg" class="dashboard-logo"></div>
+            <div class = "col"><img src="/assets/img/Services/Services_icon-03.svg" class="dashboard-logo"></div>
+          </div>
+      </div>
+      <div class = "row product-services">
+        <div class = "col">
+          <h2 class = "text-center">Web Development</h2>
+          <p class = "text-center">
+            Through close collaboration with our clients, web development is now more interactive, user-friendly, and aesthetically appealing to the viewers. We make sure that our works reflect the idea and message of our clients to their target markets.
+          </p>
+        </div>
+        <div class = "col product-services">
+          <h2 class = "text-center">Customized Software Engineering</h2>
+          <p class = "text-center px-5">
+            Powered with new trends and technologies, our software engineering will enable businesses achieve optimal business productivity. Our products are created based on the mutually agreed workflows incorporated with the industry’s best practices.
+          </p>
+        </div>
+        <div class = "col product-services">
+          <h2 class = "text-center">Technology Consulting Services</h2>
+          <p class = "text-center px-5">
+            As business requirements continuously evolve over time, our technology should be able to adapt in a manner that it will create an additional value to all our stakeholders. Spearheaded by our team of technological and innovative experts, we vow to help businesses meet their desired process / system efficiency.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div #market class = "row target-market">
+      <div class = "col-sm-2"></div>
+      <div class = "col px-5 mx-5">
+        <h1>Target Market</h1>
+        <p class ="text-center px-5">
+          Automata Creo envisions itself as an enabler of all enterprises, especially to SMEs, in realizing their full capacity in delivering their products and services. Moreover, we put our trust and confidence in these entities that through empowered workforce technology, they will be able to attain maximum productivity and high engagement rate of their people. Moreover, we commit to deliver products and services that are suited not only on the business requirements of the client but also to their diverse resources.
+        </p>
+      </div>
+      <div class = "col-sm-2"></div>
+    </div>
+    <!-- <div class = "row">
+      <div class = "col px-5 mx-5">
+        <h1>Checkout our Latest Work</h1>
+        <p class = "text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut ultrices risus, vel consequat neque. Ut luctus lectus sed orci blandit, nec eleifend lacus posuere. Praesent mollis ac felis nec venenatis. Suspendisse eget lacus ultrices, mollis risus in, luctus lectus. Vivamus rutrum risus ut sapien scelerisque finibus. Phasellus hendrerit neque non congue pulvinar. Mauris id ex ante. Aliquam magna quam, ultrices vel libero in, vehicula efficitur turpis. Duis rutrum, ipsum at ornare sodales, felis nibh commodo enim, id tristique sem dui et enim. Sed nisi odio, tempus vel mi sit amet, elementum accumsan diam. Fusce sit amet felis vel lacus dignissim condimentum at eu augue.
+        </p>
+        <div class = "row">
+          <div class = "col">
+            Image
+          </div> 
+          <div class = "col">
+            Image
+          </div> 
+          <div class = "col">
+            Image
+          </div> 
+        </div>
+        <div class = "row">
+          <div class = "col">
+            Image
+          </div> 
+          <div class = "col">
+            Image
+          </div> 
+          <div class = "col">
+            Image
+          </div> 
+        </div>
+      </div>
+    </div> -->
+    <!-- <div  class = "jumbotron jumbotron-fluid">
+      <div class = "container">
+        <h3>LET’S COLLABORATE AND REACH US THROUGH</h3>
+        <div class ="row">
+          <div class ="col-sm-1 text-right">
+            <label>Email:</label>
+          </div>
+          <div class ="col-sm-2 text-left">
+            <label>automata.creo@gmail.com</label>
+          </div>
+        </div>
+        <div class ="row">
+          <label>Contact No.:  +63 961 457 3019</label>
+        </div>
+        <div class ="row">
+          <label>Facebook:</label> 
+        </div>
+      </div>
+    </div> -->
+
+  <div #contactus class="row">
+  </div>
+</div>
+<div class="footer-copyright text-center py-3">© 2020 Copyright: Automata Creo</div>
