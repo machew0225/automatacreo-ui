@@ -50,10 +50,9 @@ h1 {
 }
 .bg { 
     // background-image: url('/assets/img/AboutUs/Background-01-test.svg');
-    background-image: url('/assets/img/AboutUs/Artboard 1.svg');
+    background-image: url('../../assets/img/AboutUs/Artboard 1.svg');
     background-position:center top;
     background-repeat: no-repeat;
-    background-size: contain;
     position: absolute;
     width: 100%;
   }
@@ -83,4 +82,8 @@ h1 {
  .row {
      margin-left:0;
      margin-right: 0;
+ }
+ p {
+     margin-left: 1rem;
+     margin-right: 1rem;
  }

@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   }
   @HostListener('window:scroll', ['$event'])
 
-  onWindowScroll(e) {
+  onWindowScroll(e): void {
     const element = document.querySelector('.navbar');
     if (window.pageYOffset > element.clientHeight) {
       element.classList.add('bg-dark');
@@ -22,12 +22,11 @@ export class HomeComponent implements OnInit {
       element.classList.remove('bg-dark');
     }
   }
-    // tslint:disable-next-line: typedef
-    goToElement(el: HTMLElement) {
+    goToElement(el: HTMLElement): void {
       el.scrollIntoView({behavior: 'smooth'});
   }
 
-  toggle() {
+  toggle(): void {
     const element = document.getElementById('navbarNav');
     if (element.classList.contains('collapse')) {
       element.classList.remove('collapse');
