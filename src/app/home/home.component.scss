@@ -45,9 +45,13 @@ h1 {
 }
 
 .about-ac-logo {
-    max-width: 10%;
-    margin-top:10%;
+    max-width: 25%;
 }
+
+.aboutus {
+    margin-top: 10%;
+}
+
 .bg { 
     // background-image: url('/assets/img/AboutUs/Background-01-test.svg');
     background-image: url('../../assets/img/AboutUs/Artboard 1.svg');
@@ -86,4 +90,16 @@ h1 {
  p {
      margin-left: 1rem;
      margin-right: 1rem;
+ }
+
+ @media only screen and (max-width: 700px) {
+    .about-ac-logo {
+        max-width: 50%;
+        transition: 500ms ease-in;
+    }
+
+    .aboutus {
+        margin-top: -20%;
+        transition: 500ms ease-in;
+    }
  }
