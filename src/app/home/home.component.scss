@@ -9,12 +9,16 @@
     color:white;
 }
 
-.collapse {
-    -moz-transition: height .5s;
-    -ms-transition: height .5s;
-    -o-transition: height .5s;
-    -webkit-transition: height .5s;
-    transition: height .5s;
+.navbar-toggler {
+    background-color:white !important;
+}
+
+.navbar-collapse  {
+    -moz-transition: 500ms ease;
+    -ms-transition: 500ms ease;
+    -o-transition: 500ms ease;
+    -webkit-transition: 500ms ease;
+    transition: 500ms ease;
 }
 
 .nav-btn-scroll {
@@ -53,12 +57,19 @@ h1 {
 }
 
 .bg { 
-    // background-image: url('/assets/img/AboutUs/Background-01-test.svg');
     background-image: url('../../assets/img/AboutUs/Artboard 1.svg');
     background-position:center top;
     background-repeat: no-repeat;
     position: absolute;
     width: 100%;
+  }
+
+  .bg2 { 
+    background-image: url('../../assets/img/AboutUs/Artboard 2.svg');
+    background-position:center top;
+    background-repeat: no-repeat;
+    height: 55rem;
+    padding-top:10rem;
   }
 
   .dashboard-logo {
@@ -77,10 +88,9 @@ h1 {
     padding-bottom:0;
  }
 
-//  ,  .product-services
- .home {
+
+ .home ,  .product-services {
      color: white;
-     margin-bottom: 5%;
  }
 
  .row {

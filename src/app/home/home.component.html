@@ -1,10 +1,10 @@
 
 <div #home class = bg>
-  <nav class="navbar navbar-expand-lg fixed-top" (scroll)="onWindowScroll($event)">
-    <button class="navbar-toggler" type="button" (click)="toggle()">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" (scroll)="onWindowScroll($event)">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item navbar-item">
           <label type = "button" class="btn btn-light nav-btn" (click) = "goToElement(home)">Home</label>
@@ -24,8 +24,6 @@
       </ul>
     </div>
   </nav>
-
-
 
   <div class="container-fluid py-5 my-5">
 </div>
@@ -69,32 +67,34 @@
         <img src="./assets/img/AboutUs/OurEdge-04.svg" class="dashboard-logo">
       </div>
     </div>
-      <h1 class = "text-center">Products and Services</h1>
-      <div #services class = "row no-gutters product-services">
-            <div class = "col"><img src="./assets/img/Services/Services_icon-01.svg" class="dashboard-logo"></div>
-            <div class = "col"><img src="./assets/img/Services/Services_icon-02.svg" class="dashboard-logo"></div>
-            <div class = "col"><img src="./assets/img/Services/Services_icon-03.svg" class="dashboard-logo"></div>
-      </div>
-      <div class = "row no-gutters">
-        <div class = "col product-services">
-          <h2 class = "text-center">Web Development</h2>
-          <p class = "text-justify">
-            Through close collaboration with our clients, web development is now more interactive, user-friendly, and aesthetically appealing to the viewers. We make sure that our works reflect the idea and message of our clients to their target markets.
-          </p>
+    <div class= "bg2">
+        <h1 class = "text-center product-services">Products and Services</h1>
+        <div #services class = "row no-gutters product-services">
+              <div class = "col"><img src="./assets/img/Services/Services_icon-01.svg" class="dashboard-logo"></div>
+              <div class = "col"><img src="./assets/img/Services/Services_icon-02.svg" class="dashboard-logo"></div>
+              <div class = "col"><img src="./assets/img/Services/Services_icon-03.svg" class="dashboard-logo"></div>
         </div>
-        <div class = "col product-services">
-          <h2 class = "text-center">Customized Software Engineering</h2>
-          <p class = "text-justify">
-            Powered with new trends and technologies, our software engineering will enable businesses achieve optimal business productivity. Our products are created based on the mutually agreed workflows incorporated with the industry’s best practices.
-          </p>
+        <div class = "row no-gutters">
+          <div class = "col product-services">
+            <h2 class = "text-center">Web Development</h2>
+            <p class = "text-justify">
+              Through close collaboration with our clients, web development is now more interactive, user-friendly, and aesthetically appealing to the viewers. We make sure that our works reflect the idea and message of our clients to their target markets.
+            </p>
+          </div>
+          <div class = "col product-services">
+            <h2 class = "text-center">Customized Software Engineering</h2>
+            <p class = "text-justify">
+              Powered with new trends and technologies, our software engineering will enable businesses achieve optimal business productivity. Our products are created based on the mutually agreed workflows incorporated with the industry’s best practices.
+            </p>
+          </div>
+          <div class = "col product-services">
+            <h2 class = "text-center">Technology Consulting Services</h2>
+            <p class = "text-justify">
+              As business requirements continuously evolve over time, our technology should be able to adapt in a manner that it will create an additional value to all our stakeholders. Spearheaded by our team of technological and innovative experts, we vow to help businesses meet their desired process / system efficiency.
+            </p>
+          </div>
         </div>
-        <div class = "col product-services">
-          <h2 class = "text-center">Technology Consulting Services</h2>
-          <p class = "text-justify">
-            As business requirements continuously evolve over time, our technology should be able to adapt in a manner that it will create an additional value to all our stakeholders. Spearheaded by our team of technological and innovative experts, we vow to help businesses meet their desired process / system efficiency.
-          </p>
-        </div>
-      </div>
+    </div>
     <div #market class = "row no-gutters target-market">
       <div class = "col-sm-2"></div>
       <div class = "col px-5 mx-5">
