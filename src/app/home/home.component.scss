@@ -4,7 +4,7 @@
 }
 
 .nav-btn {
-    background-color: inherit;
+    background-color: inherit !important;
     border-color: transparent;
     color:white;
 }
@@ -29,6 +29,9 @@
     transition:500ms ease;
 }
 
+.footer {
+    margin-bottom: 0%;
+}
 
 .footer-svg {
     display: block; 
@@ -101,15 +104,32 @@ h1 {
      margin-left: 1rem;
      margin-right: 1rem;
  }
-
+.bg-dark {
+    opacity: .9;
+}
  @media only screen and (max-width: 700px) {
     .about-ac-logo {
-        max-width: 50%;
+        max-width: 40%;
         transition: 500ms ease-in;
     }
 
     .aboutus {
         margin-top: -20%;
+        transition: 500ms ease-in;
+    }
+ }
+
+ @media only screen and (max-width: 490px) {
+    .bg2 {
+        height: 65rem; 
+        transition: 500ms ease-in;
+    }
+ }
+
+ @media only screen and (max-width: 380px) {
+    .bg2 {
+        height: 70rem;
+        padding-top:15rem;
         transition: 500ms ease-in;
     }
  }

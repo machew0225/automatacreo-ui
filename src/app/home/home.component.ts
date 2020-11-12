@@ -1,4 +1,4 @@
-import { HostListener } from '@angular/core';
+import { AbstractType, HostListener } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-
+  innerWidth: number;
   constructor() { }
 
   ngOnInit(): void {
+    this.fixNavBar(window.innerWidth);
   }
   @HostListener('window:scroll', ['$event'])
 
@@ -22,7 +23,14 @@ export class HomeComponent implements OnInit {
     } else {
       navToggler.classList.add('collapse');
       element.classList.remove('bg-dark');
+      this.fixNavBar(window.innerWidth);
     }
+  }
+
+  onResize(e): void {
+    this.innerWidth = e.target.innerWidth;
+    this.fixNavBar(this.innerWidth);
+
   }
     goToElement(el: HTMLElement): void {
       el.scrollIntoView({behavior: 'smooth'});
@@ -36,5 +44,15 @@ export class HomeComponent implements OnInit {
     } else {
       element.classList.add('collapse');
     }
+  }
+
+  fixNavBar(innerWidth: number): void {
+    if (innerWidth <= 991) {
+      const element = document.querySelector('.navbar');
+      if (!element.classList.contains('bg-dark')) {
+        element.classList.add('bg-dark');
+      }
+    }
+
   }
 }

@@ -1,25 +1,27 @@
 
-<div #home class = bg>
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" (scroll)="onWindowScroll($event)">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<div #home class = "bg" (window:resize)="onResize($event)">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" (scroll) = "onWindowScroll($event)">
+    <div class="navbar-header">
+      <button id="btnToggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
       </button>
+    </div>
       <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item navbar-item">
-          <label type = "button" class="btn btn-light nav-btn" (click) = "goToElement(home)">Home</label>
+          <label type = "button" class="btn btn-light nav-btn" data-toggle="collapse" data-target=".navbar-collapse.show" (click) = "goToElement(home)">Home</label>
         </li>
         <li class="nav-item navbar-item">
-          <label type = "button" class="btn btn-light nav-btn" (click) = "goToElement(aboutus)">About Us</label>
+          <label type = "button" class="btn btn-light nav-btn" data-toggle="collapse" data-target=".navbar-collapse.show" (click) = "goToElement(aboutus)">About Us</label>
         </li>
         <li class="nav-item navbar-item">
-          <label type = "button" class="btn btn-light nav-btn" (click) = "goToElement(services)">Product/Services</label>
+          <label type = "button" class="btn btn-light nav-btn" data-toggle="collapse" data-target=".navbar-collapse.show" (click) = "goToElement(services)">Product/Services</label>
         </li>
         <li class="nav-item navbar-item">
-          <label type = "button" class="btn btn-light nav-btn" (click) = "goToElement(market)">Target Market</label>
+          <label type = "button" class="btn btn-light nav-btn" data-toggle="collapse" data-target=".navbar-collapse.show" (click) = "goToElement(market)">Target Market</label>
         </li>
         <li class="nav-item navbar-item last">
-          <label type = "button" class="btn btn-light nav-btn" (click) = "goToElement(contactus)">Contact Us</label>
+          <label type = "button" class="btn btn-light nav-btn" data-toggle="collapse" data-target=".navbar-collapse.show" (click) = "goToElement(contactus)">Contact Us</label>
         </li>
       </ul>
     </div>
@@ -40,7 +42,7 @@
         </div>
         <h1>About Automata Creo</h1>
         <p class = "text-justify">
-          Driven by the vision to become a game changer in the Philippine IT industry, the precursors of Automata Creo established the organization with only with the confidence a <br/>
+          Driven by the vision to become a game changer in the Philippine IT industry, the precursors of Automata Creo established the organization through mutual trust and confidence. Currently, AC is fine tuning its mission and commitment to deliver value added products and services to its target clientele. Consequently, our approach is being calibrated to suit the ever increasing demands in business and workforce technology. 
         </p>
         <h3>
           Automata Creo vows to deliver top-notch technologies governed with our principles:
@@ -49,7 +51,7 @@
     </div>
     <div class = "row no-gutters">
       <div class = "col edge-header">
-        <h1> Modern and Responsive Interface</h1>
+        <h1> Modern and Responsive Interface along with the significant growth </h1>
         <img src="./assets/img/AboutUs/OurEdge-04.svg" class="dashboard-logo">
         <h1> Your Perfect Business Partner</h1>
         <img src="./assets/img/AboutUs/OurEdge-03.svg" class="dashboard-logo">
@@ -67,9 +69,9 @@
         <img src="./assets/img/AboutUs/OurEdge-04.svg" class="dashboard-logo">
       </div>
     </div>
-    <div class= "bg2">
+    <div class= "bg2" #services>
         <h1 class = "text-center product-services">Products and Services</h1>
-        <div #services class = "row no-gutters product-services">
+        <div class = "row no-gutters product-services">
               <div class = "col"><img src="./assets/img/Services/Services_icon-01.svg" class="dashboard-logo"></div>
               <div class = "col"><img src="./assets/img/Services/Services_icon-02.svg" class="dashboard-logo"></div>
               <div class = "col"><img src="./assets/img/Services/Services_icon-03.svg" class="dashboard-logo"></div>
@@ -155,7 +157,22 @@
       </div>
     </div> -->
 
-  <div #contactus class="row no-gutters">
+  <div #contactus class=" jumbotron">
+    <div class = "row no-gutters">
+      <div class = "col-12 mt-2">
+        <h1 class = "text-left">Contact Us <img src="./assets/img/telephone-fill.svg"></h1>
+      </div>
+    </div>
+    <div class = "row">
+      <div class = "col-12 text-left mb-2">
+        <strong>Email:</strong> automata.creo@gmail.com <br/>
+        <strong>Contact No.:</strong>  +63 961 457 3019 <br/>
+        <strong>Facebook:</strong> Paki search nalang po si Pjhay Agustin <br/>
+        <strong>Address:</strong> B8 L41 Diego Silang St., New San Mateo Subdivision, Guitnang Bayan I, San Mateo, Rizal, <br/>
+      </div>
+    </div>
   </div>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: Automata Creo</div>
 
-<!-- <div class="footer-copyright text-center py-3">© 2020 Copyright: Automata Creo</div> -->
+
+
